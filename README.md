@@ -2,8 +2,8 @@
 # Project Title - URL-Generator
 
 ## Introduction
-This project helps the user to create URL and helps the user to navigate to that URL with help of clickable link being provided.
-I used Prompt Engineering also to build this project.
+--This project helps the user to create URL and helps the user to navigate to that URL with help of clickable link being provided.
+--I used Prompt Engineering also to build this project.
 
 ## Video Walkthrough of the project
 
@@ -20,6 +20,8 @@ I tried to implement a basic design with vibrant colors.
 To run the project on Visual Studio we can use
 
 python app.py
+
+Later the flask server run on the local host, to view this we can copy paste the local host address in any browser and see it.
 
 ## Usage
 User have enter the login detals as username and password
