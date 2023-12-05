@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="login-container">
+            <h1>Welcome, {{ session['username'] }}!</h1>
+            <form method="get" action="{{ url_for('generate_and_display_url') }}">
+                <button type="submit">Generate Short URL</button>
+            </form>
+            <form method="get" action="{{ url_for('logout') }}">
+                <button type="submit">Logout</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
