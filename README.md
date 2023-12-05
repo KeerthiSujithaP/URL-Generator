@@ -2,16 +2,15 @@
 # Project Title - URL-Generator
 
 ## Introduction
---This project helps the user to create URL and helps the user to navigate to that URL with help of clickable link being provided.
---I used Prompt Engineering also to build this project.
+- This project helps the user to create URL and helps the user to navigate to that URL with help of clickable link being provided
+- This contain a dummy data to evaluate the user login credentials
+- I also used Prompt Engineering to build this project.
 
 ## Video Walkthrough of the project
 
 ## Features
-- Feature 1
-  Lets the user to create the URL
-- Feature 2
-  Users can navigate to those URL with the help of clickable links
+- Lets the user to create the URL
+- Users can navigate to those URL with the help of clickable links
 
 ## design decisions or assumptions
 I tried to implement a basic design with vibrant colors.
