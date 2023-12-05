@@ -1,49 +1,36 @@
-# URL-Generator
-# Project Title
+
+# Project Title - URL-Generator
 
 ## Introduction
-This project helps the users to login and create there own short urls
+This project helps the user to create URL and helps the user to navigate to that URL with help of clickable link being provided.
+I used Prompt Engineering also to build this project.
 
 ## Video Walkthrough of the project
 
 ## Features
-List out the key features of your application.
 - Feature 1
   Lets the user to create the URL
 - Feature 2
-  Users can navigate to those URL as well
-- Feature 3
+  Users can navigate to those URL with the help of clickable links
 
 ## design decisions or assumptions
-List your design desissions & assumptions
+I tried to implement a basic design with vibrant colors.
 
 ## Installation & Getting started
-Detailed instructions on how to install, configure, and get the project running.
+To run the project on Visual Studio we can use
 
-```bash
-npm install my-project
-cd my-project
-npm start
-```
+python app.py
 
 ## Usage
-Provide instructions and examples on how to use your project.
-
-```bash
-# Example
-```
-
-Include screenshots as necessary.
-
-## APIs Used
-If your application relies on external APIs, document them and include any necessary links or references.
-
-## API Endpoints
-In case of Backend Applications provide a list of your API endpoints, methods, brief descriptions, and examples of request/response.
-GET /api/items - retrieve all items
-POST /api/items - create a new item
+User have enter the login detals as username and password
+These are evaluated and if correct you enter to home page
+In home page you can click on generate url
+This will generate your URL and give it as a clickable link
+If you click on it you will be navigated to that URL page
+After visiting the page you can logout when ever by navigating back to home using to back to home buttons.
 
 
 ## Technology Stack
-List and provide a brief overview of the technologies used in the project.
-Python Flask
+- Python Flask
+- HTML
+- CSS
